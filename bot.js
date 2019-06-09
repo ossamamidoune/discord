@@ -26,31 +26,4 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
-Step 3: Add a new file, named package.json containing the following:
-
-{
-
-  "name": "Example",
-
-  "description": "Example",
-
-  "version": "0.0.0",
-
-  "main": "bot.js",
-
-  "scripts": {
-
-    "start": "node bot.js"
-
-  },
-
-  "dependencies": {
-
-    "discord.js": "11.1.0",
-
-    "request": "2.81.0"
-
-  }
-
-}
+client.login(process.env.NTg2Njc4NDI3MDkzMDQxMTcy.XP1yww.BgtOpcc5sAYxAxVk0rpFmTRK67w);//BOT_TOKEN is the Client Secret
